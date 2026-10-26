@@ -7,3 +7,30 @@ and building of RFM Dashboard in PowerBI. This project is devided into three sec
 - **RFM Analysis in python.**
 - **Dashboard development in Microsoft PowerBI.**
 
+## E-Commerce Dataset cleaning 
+
+The primary purpose of this section of the project is to clean the E-commerce csv dataset,
+in preparation for Recency-Frequency-Monetary(RFM) Analysis in the next section of the project. 
+The data cleaning process focuses on investigating the data quality problems,
+which includes: 
+
+- Checking for and replacing missing values where neccessary,
+- Identification and removal of duplicated rows of records in the dataset,
+- Rectifying incorrect datatypes such as dates,strings, float and integers,
+- Save the final cleaned dataset as csv file.
+
+## Recency Frequency Monetary(RFM) Analysis
+The purpose of this section of the project is to perfom the Recency Frequency Monetary analysis using the cleaned E-Commerce csv file from the previous section.
+The main steps taken include:
+
+- Checking the data types quality issues in the dataframe.
+- check for missing values.
+- Set a reference date to perfom the Recency Frequency Monetary analysis. 
+- Group the dataframe by Customer_Id, and perfom aggregations for recency,frequency and monetary using the order_date, order_id and gross sales.
+- Calculate Recency Frequency Monetary Scores (Scale of 1-5 using 5 bins discretization).
+- Classify or Segement the customers as **( Champions, Loyal Customers, Potenctial Loyalists, New Customers, At Risk, Lost and Others )** based on the RFM Scores.
+- Save the final result as RFM_ csv file for dashboard development in PoweBI.
+- Sketch countplots of the customer segments using Seaborn and matplotlib.pyplot to gain insights on the customer segments distributions.
+
+## Dashboard development in PowerBI
+In the PowerBi section, the RFM_E_Commerce.csv and Cleaned_E_Commerce.csv files from the prvious two sections of the project are loaded into PowerBi for dashboard development. The Dates_Table and Measures_Tables are constructed using DAX. The Star Schema model is developed using the Cleaned_E_Commerce as the fact table, and RFM_E_Commerce and Dates_table as the dimensions tables. 
