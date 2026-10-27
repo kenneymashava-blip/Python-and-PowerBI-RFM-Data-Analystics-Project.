@@ -1,6 +1,7 @@
 # Python-and-PowerBI-RFM-Data-Analystics-Project.
 
-This project focuses on data cleaning, and Frequency,Recency and Monetary analysis of the Kaggle's E-commerce dataset**[ecommerce_sales_customer_analytics_150k]https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics?select=ecommerce_sales_customer_analytics_150k.csv** using python Pandas library,
+This project focuses on data cleaning, and Frequency,Recency and Monetary analysis of the Kaggle's E-commerce dataset 
+**[ecommerce_sales_customer_analytics_150k]https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics?select=ecommerce_sales_customer_analytics_150k.csv** using python Pandas library,
 and building of RFM Dashboard using Microsoft PowerBI. This project is devided into three sections: 
 
 - **Data cleaning and quality checks in python.**
