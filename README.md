@@ -7,16 +7,14 @@ and building of RFM Dashboard using Microsoft PowerBI.
 ## Tech Stack 
 - Jupytper Notebook
 - Python Libraries ( Pandas, Numpy, Matplotlib.plyplot and Seaborn)
-- Microsoft PowerBI
-- 
+- Microsoft PowerBI.
+ 
 ### This project is devided into three sections: 
-
 - **Data cleaning and quality checks in python.**
 - **RFM Analysis in python.**
 - **Dashboard development in Microsoft PowerBI.**
 
 ## Data cleaning and quality checks in python.
-
 The primary purpose of this section of the project is to clean the E-commerce csv dataset,
 in preparation for Recency-Frequency-Monetary(RFM) Analysis in the next section of the project. 
 The data cleaning process focuses on investigating the data quality problems,
