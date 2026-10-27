@@ -38,6 +38,6 @@ In the PowerBi section, the RFM_E_Commerce.csv and Cleaned_E_Commerce.csv files 
 ## Dashboard Overview
 https://github.com/user-attachments/assets/02e877ce-6cab-4be6-bb0d-010198001462
 
-
-
+## References
+**[PivotalStats]https://www.youtube.com/watch?v=XUygyGimSwI&t=4s**
 
