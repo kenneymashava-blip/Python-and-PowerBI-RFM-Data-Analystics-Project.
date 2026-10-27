@@ -1,14 +1,14 @@
 # Contents
 
-- DAX USED IN Measures_Table.
-- DAX for creating Year-over-Year variable metrics.
-- DAX for creating Year-over-Year variable metric's conditional color formating.
+- DAX USED for KPI's in the Measures_Table.
+- DAX for creating Year-over-Year variable metrics in the Measures_Table.
+- DAX for creating Year-over-Year variable metric's conditional color formating in the Measures_Table.
 - DAX for Creating Dates_Table.
 
-## DAX USED IN Measures_Table
+## DAX USED for KPI's in the Measures_Table
 
 MaxOrderDate = MAX('Cleaned_E_Commerce'[Order Date])
-MaxOrderDate = MIN('Cleaned_E_Commerce'[Order Date])
+MinOrderDate = MIN('Cleaned_E_Commerce'[Order Date])
 Total_Customers = DISTINCTCOUNT('Cleaned_E_Commerce'[Customer ID])
 Total_Sales = SUM('Cleaned_E_Commerce'[Sales])
 AvgRecency = AVERAGE(RFM_E_Commerce[Recency])
@@ -16,7 +16,7 @@ AvgFrequency = AVERAGE(RFM_E_Commerce[Frequency])
 AvgMonetary = AVERAGE(RFM_E_Commerce[Monetary])
 
 
-## DAX for creating Year-over-Year variable metrics
+## DAX for creating Year-over-Year variable metrics in the Measures_Table
 
 YoY FrequencyVar = 
  VAR LY = CALCULATE([AvgFrequency], SAMEPERIODLASTYEAR(Dates_Table[Date]))
@@ -81,7 +81,7 @@ YoY SalesVariance =
     UNICHAR(9660) & " " & yoyCalcFormatted & " | LY " & LYFormatted)
 
 
-## DAX for creating Year-over-Year variable metric's conditional color formating.  
+## DAX for creating Year-over-Year variable metric's conditional color formating in the Measures_Table  
 
 FrequencyYoYColor = 
  VAR LY = CALCULATE([AvgFrequency],SAMEPERIODLASTYEAR(Dates_Table[Date]))
@@ -128,7 +128,7 @@ SalesYoYColor =
 
 Dates_Table = 
 ADDCOLUMNS (
-    CALENDAR (DATE(2021,1,1), DATE(2025,12,31)), 
+    CALENDAR (MinOrderDate, MaxOrderDate), 
     "Year", YEAR([Date]),
     "Month Number", MONTH([Date]),
     "Month Name", FORMAT([Date], "MMMM"),
