@@ -1,0 +1,3 @@
+
+#0F7488  - Headings, bars and columns
+#D64550  - Reset Button
