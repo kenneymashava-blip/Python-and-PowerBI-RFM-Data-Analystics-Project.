@@ -1,14 +1,21 @@
 # Python-and-PowerBI-RFM-Data-Analystics-Project.
 
 This project focuses on data cleaning, and Frequency,Recency and Monetary analysis of the Kaggle's E-commerce dataset 
-**[ecommerce_sales_customer_analytics_150k]https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics?select=ecommerce_sales_customer_analytics_150k.csv** using python Pandas library,
-and building of RFM Dashboard using Microsoft PowerBI. This project is devided into three sections: 
+**[ecommerce_sales_customer_analytics_150k]https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics?select=ecommerce_sales_customer_analytics_150k.csv** using python's Pandas library,
+and building of RFM Dashboard using Microsoft PowerBI.
+
+## Tech Stack 
+- Jupytper Notebook
+- Python Libraries ( Pandas, Numpy, Matplotlib.plyplot and Seaborn)
+- Microsoft PowerBI
+- 
+### This project is devided into three sections: 
 
 - **Data cleaning and quality checks in python.**
 - **RFM Analysis in python.**
 - **Dashboard development in Microsoft PowerBI.**
 
-## E-Commerce Dataset cleaning 
+## Data cleaning and quality checks in python.
 
 The primary purpose of this section of the project is to clean the E-commerce csv dataset,
 in preparation for Recency-Frequency-Monetary(RFM) Analysis in the next section of the project. 
@@ -20,7 +27,7 @@ which includes:
 - Rectifying incorrect datatypes such as dates,strings, float and integers,
 - Save the final cleaned dataset as csv file.
 
-## Recency Frequency Monetary(RFM) Analysis
+## Recency Frequency Monetary(RFM) Analysis in python
 The purpose of this section of the project is to perfom the Recency Frequency Monetary analysis using the cleaned E-Commerce csv file from the previous section.
 The main steps taken include:
 
