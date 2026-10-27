@@ -33,4 +33,8 @@ The main steps taken include:
 - Sketch countplots of the customer segments using Seaborn and matplotlib.pyplot to gain insights on the customer segments distributions.
 
 ## Dashboard development in PowerBI
-In the PowerBi section, the RFM_E_Commerce.csv and Cleaned_E_Commerce.csv files from the prvious two sections of the project are loaded into PowerBi for dashboard development. The Dates_Table and Measures_Tables are constructed using DAX. The Star Schema model is developed using the Cleaned_E_Commerce as the fact table, and RFM_E_Commerce and Dates_table as the dimensions tables. 
+In the PowerBi section, the RFM_E_Commerce.csv and Cleaned_E_Commerce.csv files from the prvious two sections of the project are loaded into PowerBi for dashboard development. The Dates_Table and Measures_Tables are constructed using DAX.The KPI's measures, variable recency,frequency and Monetary measures together with their respective color formating measures were developed and stored in the Measures_Table. The Star Schema model was developed using the Cleaned_E_Commerce as the fact table, and RFM_E_Commerce and Dates_table as the dimensions tables. Finally the Dashboard was developed using the model. 
+
+## Dashboard Overview
+
+
