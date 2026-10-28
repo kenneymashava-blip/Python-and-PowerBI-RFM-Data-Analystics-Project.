@@ -47,5 +47,6 @@ https://github.com/user-attachments/assets/02e877ce-6cab-4be6-bb0d-010198001462
 
 ## References
 **[Data with Baraa, PowerBI Ultimate Course](https://www.youtube.com/playlist?list=PLNcg_FV9n7qZge4KDGqGtqgiuVuhVZWzu)**
-**[PivotalStats]https://www.youtube.com/watch?v=XUygyGimSwI&t=4s**
+
+**[PivotalStats, Sales Dashboard in Power BI | RFM Analysis | End to End Project | Beginner Friendly](https://www.youtube.com/watch?v=XUygyGimSwI&t=4s)**
 
