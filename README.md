@@ -73,4 +73,8 @@ https://github.com/user-attachments/assets/02e877ce-6cab-4be6-bb0d-010198001462
 ***
 ## About Me 👨‍🎓
 
-I am a BSc Applied Mathematics and Statistics graduate with a passion for data science and analytics. This project reflects my ability to apply technical machine learning skills to real-world datasets.
+I am a BSc Applied Mathematics and Statistics graduate with a passion for data science and analytics. This project reflects my ability to apply technical data analytics skills and business inteligence tools to real-world datasets.
+
+## ⭐ Star This Repo
+
+If you found this project useful, please give it a ⭐ on GitHub. It helps me grow!
