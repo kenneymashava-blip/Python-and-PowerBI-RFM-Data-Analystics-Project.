@@ -70,3 +70,7 @@ https://github.com/user-attachments/assets/02e877ce-6cab-4be6-bb0d-010198001462
 **[Data with Baraa: Power BI Ultimate Course](https://www.youtube.com/playlist?list=PLNcg_FV9n7qZge4KDGqGtqgiuVuhVZWzu)**
 
 **[PivotalStats: Sales Dashboard in Power BI | RFM Analysis | End to End Project | Beginner Friendly](https://www.youtube.com/watch?v=XUygyGimSwI&t=4s)**
+***
+## About Me 👨‍🎓
+
+I am a BSc Applied Mathematics and Statistics graduate with a passion for data science and analytics. This project reflects my ability to apply technical machine learning skills to real-world datasets.
