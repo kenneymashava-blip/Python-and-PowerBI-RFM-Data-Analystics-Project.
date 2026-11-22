@@ -39,6 +39,18 @@ The main steps taken include:
 - Save the final result as RFM_ csv file for dashboard development in PoweBI.
 - Sketch countplots of the customer segments using Seaborn and matplotlib.pyplot to gain insights on the customer segments distributions.
 
+## Customer Segmentation Summary
+
+|Customer_Segment |	Total_Customers |	Total_Sales |	Percentage_Sales|
+|:----------------|:----------------|:--------------|:------------------|
+|At Risk| 	38 |	371779.56| 	0.20|
+|Champions |	53 |	1307322.07 |	0.69|
+|Lost |	176 |	403547.79 |	0.21|
+|Loyal Customers| 	1016 |	17728336.64 |	9.33|
+|New Customers |	11942 |	95068428.86 |	50.05|
+|Others |	9212 |	42210988.80 |	22.22|
+|Potential Loyal| 	2474 	|32872157.16 |	17.30|
+
 ## Dashboard development in PowerBI
 In the PowerBi section, the RFM_E_Commerce.csv and Cleaned_E_Commerce.csv files from the prvious two sections of the project are loaded into PowerBi for dashboard development. The Dates_Table and Measures_Tables are constructed using DAX.The KPI's measures, variable recency,frequency and Monetary measures together with their respective color formating measures were developed and stored in the Measures_Table. The Star Schema model was developed using the Cleaned_E_Commerce as the fact table, and RFM_E_Commerce and Dates_table as the dimensions tables. Finally the Dashboard was developed using the model. 
 
